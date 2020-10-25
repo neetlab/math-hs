@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 040cbfdbd53bd4669b544e426352fc5874fe82e729a74e22928d53dd40f9700b
+-- hash: 0abb4759a377249c6f04e1e0087f3638f0b128a0b3c4b5626e4da65fc8e72a58
 
 name:           math-hs
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Vector
   other-modules:
       Paths_math_hs
   hs-source-dirs:
